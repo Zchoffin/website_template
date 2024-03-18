@@ -42,8 +42,8 @@ nav_pages:
     items:
       - name: OSRS_AI
         url: /projects/osrs_AI
-      - name: example_2
-        url: /projects/example_2
+#      - name: example_2
+#        url: /projects/example_2
 
 include:
   - .htaccess
