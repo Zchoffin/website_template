@@ -5,7 +5,7 @@ sitemap: false
 permalink: /about/
 ---
 
-## About 
+## About
 
 {% for member in site.data.pi %}
 <div class="jumbotron">
@@ -64,17 +64,7 @@ permalink: /about/
 
 {% if site.data.grants %}
 <div class="jumbotron">
-### Grants
-<ul>
-{% for grant in site.data.grants %}
- <li> {{ grant.name }} </li>
-{% endfor %}
-</ul>
-</div>
-{% endif %}
 
-{% if site.data.awards %}
-<div class="jumbotron">
 ### Awards
 <ul>
 {% for award in site.data.awards %}
@@ -83,21 +73,3 @@ permalink: /about/
 </ul>
 </div>
 {% endif %}
-
-{% if site.data.people %}
-<div class="jumbotron">
-### Students and mentoring
-<ul>
-{% for student in site.data.people %}
- <li> {{ student.name }}, {{student.location}} ({{student.degree}}, {{student.year}}) </li>
-{% endfor %}
-</ul>
-</div>
-{% endif %}
-
-<div class="jumbotron">
-  <h4>Sponsors</h4>
-  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
- {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
-  </div>
-</div>

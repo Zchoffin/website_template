@@ -11,6 +11,11 @@ url: ""
 # google_tag_manager: XXX
 
 # Footer info
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 affiliation: >
     Zachary Choffin<br/>
     Ph.D. Candidate in Electrical Engineering<br/>
@@ -32,7 +37,13 @@ nav_pages:
   - name: research
 #  - name: software
 #  - name: team
-#  - name: teaching
+  - name: projects
+    dropdown: true
+    items:
+      - name: OSRS_AI
+        url: /projects/osrs_AI
+      - name: example_2
+        url: /projects/example_2
 
 include:
   - .htaccess
