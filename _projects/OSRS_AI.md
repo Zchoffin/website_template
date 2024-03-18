@@ -32,6 +32,7 @@ permalink: /projects/osrs_AI
 <div class="jumbotron">
   <h2>YOLOv4 Results</h2>
   <img src="/images/results_1.png" alt="Open Labeling" style="width:100%; height:auto;">
+  Re
   <img src="/images/results_2.png" alt="Open Labeling" style="width:100%; height:auto;">
 </div>
 
