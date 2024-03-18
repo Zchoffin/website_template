@@ -1,8 +1,8 @@
 ---
-title: "OSRS AI"
+title: "OSRS_AI"
 layout: gridlay
 sitemap: false
-permalink: /projects/osrs_AI
+permalink: /projects/OSRS_AI
 ---
 
 <style>
