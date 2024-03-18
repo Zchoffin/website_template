@@ -41,7 +41,7 @@ nav_pages:
     dropdown: true
     items:
       - name: OSRS_AI
-        url: /projects/osrs_AI
+        url: /projects/OSRS_AI
 #      - name: example_2
 #        url: /projects/example_2
 
